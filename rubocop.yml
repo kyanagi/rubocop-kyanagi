@@ -3,6 +3,7 @@ require:
 
 AllCops:
   DisabledByDefault: true
+  NewCops: enable
 
 Rubycw/Rubycw:
   Enabled: true
@@ -13,5 +14,5 @@ Bundler:
 Security:
   Enabled: true
 
-Security/IoMethods:
+Lint:
   Enabled: true
