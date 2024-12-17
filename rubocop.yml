@@ -9,3 +9,9 @@ Rubycw/Rubycw:
 
 Bundler:
   Enabled: true
+
+Security:
+  Enabled: true
+
+Security/IoMethods:
+  Enabled: true
