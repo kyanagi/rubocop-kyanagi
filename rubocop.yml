@@ -1,0 +1,8 @@
+require:
+  - rubocop-rubycw
+
+AllCops:
+  DisabledByDefault: true
+
+Rubycw/Rubycw:
+  Enabled: true
