@@ -16,3 +16,12 @@ Security:
 
 Lint:
   Enabled: true
+
+Naming:
+  Enabled: true
+
+Naming/AsciiIdentifiers:
+  Enabled: false
+
+Naming/MethodParameterName:
+  MinNameLength: 1
