@@ -6,3 +6,6 @@ AllCops:
 
 Rubycw/Rubycw:
   Enabled: true
+
+Bundler:
+  Enabled: true
