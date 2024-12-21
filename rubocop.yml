@@ -1,5 +1,6 @@
 require:
   - rubocop-rubycw
+  - rubocop-performance
 
 AllCops:
   DisabledByDefault: true
@@ -421,4 +422,19 @@ Style/YodaCondition:
   EnforcedStyle: forbid_for_equality_operators_only
 
 Style/ZeroLengthPredicate:
+  Enabled: true
+
+Performance/FlatMap:
+  Enabled: true
+
+Performance/MapCompact:
+  Enabled: true
+
+Performance/RangeInclude:
+  Enabled: true
+
+Performance/RegexpMatch:
+  Enabled: true
+
+Performance/ReverseEach:
   Enabled: true

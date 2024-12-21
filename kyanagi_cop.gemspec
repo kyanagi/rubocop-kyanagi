@@ -17,4 +17,5 @@ Gem::Specification.new do |spec|
   spec.files = %w[rubocop.yml]
 
   spec.add_dependency "rubocop-rubycw"
+  spec.add_dependency "rubocop-performance"
 end
