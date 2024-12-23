@@ -18,4 +18,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rubocop-rubycw"
   spec.add_dependency "rubocop-performance"
+  spec.add_dependency "rubocop-rails"
 end
