@@ -5,6 +5,13 @@ require:
 AllCops:
   DisabledByDefault: true
   NewCops: enable
+  Exclude:
+    - "bin/*"
+    - "db/*schema.rb"
+    - "db/migrate/**/*"
+    - "vendor/**/*"
+    - "node_modules/**/*"
+    - "tmp/**/*"
 
 Rubycw/Rubycw:
   Enabled: true
