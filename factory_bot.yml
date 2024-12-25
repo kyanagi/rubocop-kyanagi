@@ -1,0 +1,32 @@
+require:
+  - rubocop-factory_bot
+
+AllCops:
+  DisabledByDefault: true
+
+FactoryBot:
+  Enabled: false
+  Include:
+    - "spec/factories/**/*.rb"
+    - "test/factories/**/*.rb"
+
+FactoryBot/AttributeDefinedStatically:
+  Enabled: true
+
+FactoryBot/CreateList:
+  Enabled: true
+
+FactoryBot/FactoryAssociationWithStrategy:
+  Enabled: true
+
+FactoryBot/FactoryClassName:
+  Enabled: true
+
+FactoryBot/FactoryNameStyle:
+  Enabled: true
+
+FactoryBot/RedundantFactoryOption:
+  Enabled: true
+
+FactoryBot/SyntaxMethods:
+  Enabled: true
