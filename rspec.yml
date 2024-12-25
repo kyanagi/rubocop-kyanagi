@@ -1,0 +1,158 @@
+require:
+  - rubocop-rspec
+
+AllCops:
+  DisabledByDefault: true
+  NewCops: enable
+  Exclude:
+    - "bin/*"
+    - "db/*schema.rb"
+    - "db/migrate/**/*"
+    - "vendor/**/*"
+    - "node_modules/**/*"
+    - "tmp/**/*"
+
+RSpec/AroundBlock:
+  Enabled: true
+
+RSpec/BeEq:
+  Enabled: true
+
+RSpec/BeEql:
+  Enabled: true
+
+RSpec/BeNil:
+  Enabled: true
+
+RSpec/BeforeAfterAll:
+  Enabled: true
+
+RSpec/ClassCheck:
+  Enabled: true
+
+RSpec/ContainExactly:
+  Enabled: true
+
+RSpec/ContextMethod:
+  Enabled: true
+
+RSpec/EmptyExampleGroup:
+  Enabled: true
+
+RSpec/EmptyHook:
+  Enabled: true
+
+RSpec/EmptyLineAfterExample:
+  Enabled: true
+
+RSpec/EmptyLineAfterExampleGroup:
+  Enabled: true
+
+RSpec/EmptyLineAfterFinalLet:
+  Enabled: true
+
+RSpec/EmptyLineAfterHook:
+  Enabled: true
+
+RSpec/Eq:
+  Enabled: true
+
+RSpec/ExpectActual:
+  Enabled: true
+
+RSpec/Focus:
+  Enabled: true
+
+RSpec/HookArgument:
+  Enabled: true
+
+RSpec/HooksBeforeExamples:
+  Enabled: true
+
+RSpec/ImplicitBlockExpectation:
+  Enabled: true
+
+RSpec/ImplicitSubject:
+  Enabled: true
+  EnforcedStyle: disallow
+
+RSpec/IndexedLet:
+  Enabled: true
+
+RSpec/ItBehavesLike:
+  Enabled: true
+
+RSpec/IteratedExpectation:
+  Enabled: true
+
+RSpec/LeakyConstantDeclaration:
+  Enabled: true
+
+RSpec/LetBeforeExamples:
+  Enabled: true
+
+RSpec/LetSetup:
+  Enabled: true
+
+RSpec/MatchArray:
+  Enabled: true
+
+RSpec/MissingExpectationTargetMethod:
+  Enabled: true
+
+RSpec/NoExpectationExample:
+  Enabled: true
+
+RSpec/NotToNot:
+  Enabled: true
+
+RSpec/OverwritingSetup:
+  Enabled: true
+
+RSpec/PredicateMatcher:
+  Enabled: true
+
+RSpec/ReceiveMessages:
+  Enabled: true
+
+RSpec/RedundantPredicateMatcher:
+  Enabled: true
+
+RSpec/ScatteredLet:
+  Enabled: true
+
+RSpec/ScatteredSetup:
+  Enabled: true
+
+RSpec/SharedContext:
+  Enabled: true
+
+RSpec/SingleArgumentMessageChain:
+  Enabled: true
+
+RSpec/SpecFilePathFormat:
+  Enabled: true
+
+RSpec/SpecFilePathSuffix:
+  Enabled: true
+
+RSpec/StubbedMock:
+  Enabled: true
+
+RSpec/VariableDefinition:
+  Enabled: true
+
+RSpec/VariableName:
+  Enabled: true
+
+RSpec/VerifiedDoubleReference:
+  Enabled: true
+
+RSpec/VerifiedDoubles:
+  Enabled: true
+
+RSpec/VoidExpect:
+  Enabled: true
+
+RSpec/Yield:
+  Enabled: true
