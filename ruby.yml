@@ -25,6 +25,9 @@ Security:
 Lint:
   Enabled: true
 
+Lint/MissingCopEnableDirective:
+  Enabled: false
+
 Naming:
   Enabled: true
 
