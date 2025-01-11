@@ -105,6 +105,9 @@ Layout/FirstHashElementIndentation:
   Enabled: true
   EnforcedStyle: consistent
 
+Layout/FirstParameterIndentation:
+  Enabled: true
+
 Layout/HashAlignment:
   Enabled: true
 
@@ -138,6 +141,24 @@ Layout/MultilineBlockLayout:
   Enabled: true
 
 Layout/MultilineHashBraceLayout:
+  Enabled: true
+
+Layout/MultilineMethodCallBraceLayout:
+  Enabled: true
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: true
+  EnforcedStyle: indented
+
+Layout/MultilineMethodDefinitionBraceLayout:
+  Enabled: true
+  EnforcedStyle: same_line
+
+Layout/MultilineOperationIndentation:
+  Enabled: true
+  EnforcedStyle: indented
+
+Layout/ParameterAlignment:
   Enabled: true
 
 Layout/RescueEnsureAlignment:
