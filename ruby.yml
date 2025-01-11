@@ -66,6 +66,9 @@ Layout/CaseIndentation:
 Layout/ClosingParenthesisIndentation:
   Enabled: true
 
+Layout/CommentIndentation:
+  Enabled: true
+
 Layout/ConditionPosition:
   Enabled: true
 
