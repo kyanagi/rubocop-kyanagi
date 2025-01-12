@@ -81,6 +81,9 @@ Layout/DotPosition:
 Layout/ElseAlignment:
   Enabled: true
 
+Layout/EmptyComment:
+  Enabled: true
+
 Layout/EmptyLineAfterMagicComment:
   Enabled: true
 
