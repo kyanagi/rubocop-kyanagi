@@ -134,6 +134,10 @@ Layout/LeadingEmptyLines:
 Layout/LineContinuationSpacing:
   Enabled: true
 
+Layout/LineLength:
+  Enabled: true
+  Max: 140
+
 Layout/MultilineArrayBraceLayout:
   Enabled: true
 
