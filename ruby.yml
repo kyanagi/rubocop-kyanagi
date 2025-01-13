@@ -289,6 +289,15 @@ Style/AmbiguousEndlessMethodDefinition:
 Style/ArgumentsForwarding:
   Enabled: true
 
+Style/ArrayIntersect:
+  Enabled: true
+
+Style/ArrayJoin:
+  Enabled: true
+
+Style/Attr:
+  Enabled: true
+
 Style/AutoResourceCleanup:
   Enabled: true
 
@@ -324,6 +333,9 @@ Style/ClassMethods:
 Style/ClassVars:
   Enabled: true
 
+Style/CollectionCompact:
+  Enabled: true
+
 Style/ColonMethodCall:
   Enabled: true
 
@@ -333,10 +345,16 @@ Style/ColonMethodDefinition:
 Style/CombinableDefined:
   Enabled: true
 
+Style/CommentAnnotation:
+  Enabled: true
+
 Style/ComparableClamp:
   Enabled: true
 
 Style/ConcatArrayLiterals:
+  Enabled: true
+
+Style/DataInheritance:
   Enabled: true
 
 Style/DefWithParentheses:
@@ -349,6 +367,9 @@ Style/Dir:
   Enabled: true
 
 Style/DirEmpty:
+  Enabled: true
+
+Style/DocumentDynamicEvalDefinition:
   Enabled: true
 
 Style/DoubleCopDisableDirective:
@@ -366,13 +387,25 @@ Style/EmptyBlockParameter:
 Style/EmptyElse:
   Enabled: true
 
+Style/EmptyHeredoc:
+  Enabled: true
+
 Style/EmptyLambdaParameter:
   Enabled: true
 
 Style/EmptyLiteral:
   Enabled: true
 
+Style/EmptyMethod:
+  Enabled: true
+
 Style/Encoding:
+  Enabled: true
+
+Style/EndlessMethod:
+  Enabled: true
+
+Style/EnvHome:
   Enabled: true
 
 Style/EvalWithLocation:
