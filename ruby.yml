@@ -417,6 +417,12 @@ Style/ExpandPathArguments:
 Style/ExplicitBlockArgument:
   Enabled: true
 
+Style/FileRead:
+  Enabled: true
+
+Style/FileWrite:
+  Enabled: true
+
 Style/For:
   Enabled: true
 
@@ -431,6 +437,9 @@ Style/GlobalVars:
   Enabled: true
 
 Style/HashAsLastArrayItem:
+  Enabled: true
+
+Style/HashConversion:
   Enabled: true
 
 Style/HashEachMethods:
@@ -466,6 +475,10 @@ Style/KeywordArgumentsMerging:
 Style/KeywordParametersOrder:
   Enabled: true
 
+Style/Lambda:
+  Enabled: true
+  EnforcedStyle: literal
+
 Style/LambdaCall:
   Enabled: true
 
@@ -499,14 +512,72 @@ Style/MinMaxComparison:
 Style/MissingRespondToMissing:
   Enabled: true
 
+Style/MixinGrouping:
+  Enabled: true
+
+Style/MixinUsage:
+  Enabled: true
+
+Style/MultilineIfModifier:
+  Enabled: true
+
+Style/MultilineIfThen:
+  Enabled: true
+
+Style/MultilineInPatternThen:
+  Enabled: true
+
 Style/MultilineMemoization:
   Enabled: true
 
 Style/MultilineTernaryOperator:
   Enabled: true
 
+Style/MultilineWhenThen:
+  Enabled: true
+
 # Style/MutableConstant:
 #   Enabled: true
+
+Style/NestedFileDirname:
+  Enabled: true
+
+Style/NestedModifier:
+  Enabled: true
+
+Style/NestedParenthesizedCalls:
+  Enabled: true
+
+Style/NestedTernaryOperator:
+  Enabled: true
+
+Style/NilComparison:
+  Enabled: true
+
+Style/NonNilCheck:
+  Enabled: true
+
+Style/Not:
+  Enabled: true
+
+Style/NumericLiteralPrefix:
+  Enabled: true
+
+Style/NumericPredicate:
+  Enabled: true
+  EnforcedStyle: comparison
+
+Style/ObjectThen:
+  Enabled: true
+
+Style/OneLineConditional:
+  Enabled: true
+
+Style/OpenStructUse:
+  Enabled: true
+
+Style/OperatorMethodCall:
+  Enabled: true
 
 Style/OptionalArguments:
   Enabled: true
