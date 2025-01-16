@@ -591,10 +591,22 @@ Style/OrAssignment:
 Style/ParenthesesAroundCondition:
   Enabled: true
 
+Style/PreferredHashMethods:
+  Enabled: true
+
+Style/Proc:
+  Enabled: true
+
+Style/QuotedSymbols:
+  Enabled: true
+
 Style/RaiseArgs:
   Enabled: true
 
 Style/RandomWithOffset:
+  Enabled: true
+
+Style/RedundantArrayConstructor:
   Enabled: true
 
 Style/RedundantAssignment:
@@ -618,6 +630,15 @@ Style/RedundantCurrentDirectoryInPath:
 Style/RedundantDoubleSplatHashBraces:
   Enabled: true
 
+Style/RedundantEach:
+  Enabled: true
+
+Style/RedundantException:
+  Enabled: true
+
+Style/RedundantFetchBlock:
+  Enabled: true
+
 Style/RedundantFileExtensionInRequire:
   Enabled: true
 
@@ -630,10 +651,28 @@ Style/RedundantFreeze:
 Style/RedundantHeredocDelimiterQuotes:
   Enabled: true
 
+Style/RedundantInitialize:
+  Enabled: true
+
+Style/RedundantInterpolation:
+  Enabled: true
+
+Style/RedundantInterpolationUnfreeze:
+  Enabled: true
+
+Style/RedundantLineContinuation:
+  Enabled: true
+
 Style/RedundantParentheses:
   Enabled: true
 
 Style/RedundantRegexpArgument:
+  Enabled: true
+
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+
+Style/RedundantRegexpConstructor:
   Enabled: true
 
 Style/RedundantRegexpEscape:
@@ -648,11 +687,27 @@ Style/RedundantSelf:
 Style/RedundantSelfAssignment:
   Enabled: true
 
+Style/RedundantSelfAssignmentBranch:
+  Enabled: true
+
+Style/RedundantSort:
+  Enabled: true
+
+Style/RedundantSortBy:
+  Enabled: true
+
 Style/RedundantStringEscape:
+  Enabled: true
+
+Style/RegexpLiteral:
   Enabled: true
 
 Style/RescueModifier:
   Enabled: true
+
+Style/RescueStandardError:
+  Enabled: true
+  EnforcedStyle: implicit
 
 Style/ReturnNilInPredicateMethodDefinition:
   Enabled: true
@@ -673,6 +728,12 @@ Style/Semicolon:
 Style/SignalException:
   Enabled: true
 
+Style/SingleArgumentDig:
+  Enabled: true
+
+Style/SingleLineDoEndBlock:
+  Enabled: true
+
 Style/SingleLineMethods:
   Enabled: true
 
@@ -687,6 +748,9 @@ Style/SpecialGlobalVars:
   EnforcedStyle: use_builtin_english_names
 
 Style/StabbyLambdaParentheses:
+  Enabled: true
+
+Style/StderrPuts:
   Enabled: true
 
 Style/StringChars:
@@ -704,7 +768,26 @@ Style/StringLiterals:
 Style/StringLiteralsInInterpolation:
   Enabled: true
 
+Style/Strip:
+  Enabled: true
+
 Style/StructInheritance:
+  Enabled: true
+
+Style/SuperArguments:
+  Enabled: true
+
+Style/SuperWithArgsParentheses:
+  Enabled: true
+
+Style/SwapValues:
+  Enabled: true
+
+Style/SymbolArray:
+  Enabled: true
+  EnforcedStyle: brackets
+
+Style/SymbolLiteral:
   Enabled: true
 
 Style/TrailingBodyOnClass:
@@ -714,6 +797,9 @@ Style/TrailingBodyOnMethodDefinition:
   Enabled: true
 
 Style/TrailingBodyOnModule:
+  Enabled: true
+
+Style/TrailingCommaInArguments:
   Enabled: true
 
 Style/TrailingCommaInArrayLiteral:
@@ -731,6 +817,9 @@ Style/TrivialAccessors:
   Enabled: true
 
 Style/UnlessElse:
+  Enabled: true
+
+Style/UnpackFirst:
   Enabled: true
 
 Style/VariableInterpolation:
