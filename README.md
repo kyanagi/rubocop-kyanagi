@@ -7,7 +7,7 @@ My personal RuboCop configurations.
 Add the following entry to your Gemfile:
 
 ```ruby
-gem "kyanagi_cop", require: false, group: [:development]
+gem "rubocop-kyanagi", require: false, group: [:development]
 ```
 
 Then run `bundle install`.
@@ -16,7 +16,7 @@ Edit your `.rubocop.yml`:
 
 ```yml
 inherit_gem:
-  kyanagi_cop:
+  rubocop-kyanagi:
     - ruby.yml
     - rails.yml
     - rspec.yml
