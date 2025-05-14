@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "rubocop-kyanagi"
-  spec.version = "0.0.1"
+  spec.version = "0.0.2"
   spec.authors = ["Kouhei Yanagita"]
   spec.email = ["yanagi@shakenbu.org"]
 
